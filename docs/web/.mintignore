@@ -1,0 +1,5 @@
+# Branching is Beta; not documented until early access.
+/tables/branching.mdx
+/agent-branch-experiments.mdx
+# JSON columns are Beta; not documented until early access.
+/sql/dql/json-functions.mdx

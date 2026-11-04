@@ -31,11 +31,15 @@ Find the failure, fix the data, and retrain.
     Start from one failed grasp or evaluation example. [Search](/search/) multimodal data, metadata, and embeddings
     together, retrieve similar examples, and [curate](/curation) them into a targeted training subset.
   </Step>
+  {/*
+  Draft until branching reaches early access.
+
   <Step title="Data sandboxes for safe agentic experimentation">
     Don't let an agent silently corrupt your data and ruin a training run. Give each agent its own
     [branch](/tables/branching), a writable fork of the table, to experiment on, and review the changes before
     they reach `main`. See [Run experiments on branches](/agent-branch-experiments).
   </Step>
+  */}
   <Step title="A single dataset for every modality">
     Keep episodes, frames, metadata, features, and embeddings together in one schema-enforced table, without
     pipelines to keep them in sync. Table [versions](/management/table#versioning) let you trace each training
@@ -170,7 +174,6 @@ move or connect your data.
 |  | [Database](/management/database) | ✅ | ✅ |
 |  | [Namespace](/management/namespace) | ✅ | ✅ |
 |  | [Table](/management/table) | ✅ | ✅ |
-|  | [Branches](/tables/branching) | ✅ | ✅ |
 |  | [View](/management/view) | ❌ | ✅ |
 |  | [Materialized view](/management/materialized-view) | ❌ | ✅ |
 |  | [Secret](/management/secret) | ❌ | ✅ |
@@ -194,6 +197,11 @@ move or connect your data.
 | **Deployment** | [Horizontal Scaling](/enterprise/horizontal-scaling) | ❌ | ✅ |
 |  | [OpenTelemetry](/deployment/opentelemetry) | ✅ | ✅ |
 |  | [Kubernetes](/enterprise/deployment/kubernetes) | ❌ | ✅ |
+
+{/*
+Draft until branching reaches early access; restore to the Management rows.
+|  | [Branches](/tables/branching) | ✅ | ✅ |
+*/}
 
 ## Projects using LanceDB {#projects-using-lancedb}
 

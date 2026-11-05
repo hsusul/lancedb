@@ -1,5 +1,8 @@
 # Branching is Beta; not documented until early access.
+# To restore: docs.json Documentation > Management, after management/table;
+# Tutorials > Feature Engineering, after tutorials/feature-engineering/materialized-views.
 /tables/branching.mdx
 /agent-branch-experiments.mdx
 # JSON columns are Beta; not documented until early access.
+# To restore: docs.json Documentation > SQL Reference > DQL, after sql/dql/vector-distance.
 /sql/dql/json-functions.mdx
